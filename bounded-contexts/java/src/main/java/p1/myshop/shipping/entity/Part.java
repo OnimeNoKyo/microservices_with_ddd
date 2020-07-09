@@ -1,6 +1,10 @@
-package p1.myshop.entities;
+package p1.myshop.shipping.entity;
 
-public class Dvd implements Item {
+import p1.myshop.aggregate.Item;
+import p1.myshop.aggregate.ItemId;
+
+public class Part implements Item {
+
     @Override
     public ItemId itemId() {
         return null;
