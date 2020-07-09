@@ -1,14 +1,14 @@
-package p1.myshop.shipping.service;
+package p1.myshop.shipping.domain;
 
-import p1.myshop.aggregate.HasWeight;
-import p1.myshop.catalog.service.CatalogService;
-import p1.myshop.shoppingcart.entity.Cart;
-import p1.myshop.shoppingcart.entity.CartItem;
+import p1.myshop.catalog.domain.HasWeight;
+import p1.myshop.catalog.domain.CatalogRepository;
+import p1.myshop.shoppingcart.domain.Cart;
+import p1.myshop.shoppingcart.domain.CartItem;
 
 public class DeliveryService {
-    private final CatalogService catalogService;
+    private final CatalogRepository catalogService;
 
-    public DeliveryService(CatalogService catalogService) {
+    public DeliveryService(CatalogRepository catalogService) {
         this.catalogService = catalogService;
     }
 

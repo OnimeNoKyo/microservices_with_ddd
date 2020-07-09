@@ -1,4 +1,4 @@
-package p1.myshop.shoppingcart.entity;
+package p1.myshop.shoppingcart.domain;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package p1.myshop.shipping.entity;
+package p1.myshop.shipping.domain;
 
 import p1.myshop.aggregate.User;
 

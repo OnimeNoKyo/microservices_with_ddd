@@ -1,4 +1,4 @@
-package p1.myshop.aggregate;
+package p1.myshop.catalog.domain;
 
 public class ItemId {
     public static ItemId from(String s) {

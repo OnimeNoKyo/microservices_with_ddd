@@ -1,9 +1,6 @@
-package p1.myshop.catalog.entity;
+package p1.myshop.catalog.domain;
 
-import p1.myshop.aggregate.Item;
-import p1.myshop.aggregate.ItemId;
-
-public class Dvd implements Item {
+public class Book implements Item {
     @Override
     public ItemId itemId() {
         return null;

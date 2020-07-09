@@ -1,7 +1,6 @@
-package p1.myshop.shoppingcart.entity;
+package p1.myshop.shoppingcart.domain;
 
-import p1.myshop.aggregate.ItemId;
-import p1.myshop.aggregate.Quantity;
+import p1.myshop.catalog.domain.ItemId;
 
 public class CartItem {
     public final ItemId itemId;
